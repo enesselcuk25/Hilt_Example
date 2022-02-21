@@ -15,7 +15,7 @@ class RecyAdapter  @Inject constructor(): RecyclerView.Adapter<ViewHolder>() {
     var dogList : List<String>? = arrayListOf()
     set(value) {
         field = value
-        notifyDataSetChanged() 
+        notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
